@@ -1,5 +1,5 @@
 """  
-Used to compare object identity  
+Used to compare object identity (Memory Location)
 """  
 a = [1, 2, 3]  
 b = a  
