@@ -1,15 +1,15 @@
 """
-Pattern 2: Right-Angled Triangle
+Print a right triangle of stars:
 
 *
 **
 ***
 ****
+*****
 
-Logic: Print i stars in row i.
 """
 
-for i in range(1,5):
+for i in range(1,6):
     for j in range(i):
         print("*", end="")
     print()
