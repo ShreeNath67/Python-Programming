@@ -1,11 +1,11 @@
 """
-Pyramid of stars:
+Pyramid with numbers:
 
-    *
-   ***
-  *****
- *******
-*********
+    1
+   222
+  33333
+ 4444444
+555555555
 
 """
 
@@ -15,5 +15,5 @@ for i in range(1, rows + 1):
     for j in range(rows - i):
         print(" ", end="")
     for k in range(2 * i - 1):
-        print("*", end="")
+        print(i, end="")
     print()
